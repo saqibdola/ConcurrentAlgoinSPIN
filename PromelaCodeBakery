@@ -24,7 +24,7 @@ do
 :: else -> 
   if 
   :: j != _pid -> 
-	choosing[j]==false);
+	choosing[j]==false;
   (num[j] == 0) || (num[_pid] < num[j]) ||
   ((num[_pid] == num[j]) && (_pid < j))
   :: else
